@@ -1,12 +1,9 @@
-package main;
+package mvc.main;
 
-import configuration.JPAConfig;
-import entity.AccountEntity;
+import mvc.configuration.JPAConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import repository.AccountRepository;
-import service.AccountService;
-
-import java.util.Date;
+import mvc.repository.AccountRepository;
+import mvc.service.AccountService;
 
 public class MainTestTransaction {
     static AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(JPAConfig.class);

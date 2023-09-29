@@ -1,4 +1,4 @@
-package entity;
+package mvc.entity;
 
 import org.springframework.format.annotation.DateTimeFormat;
 
